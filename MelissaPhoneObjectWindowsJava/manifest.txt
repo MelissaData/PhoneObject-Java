@@ -1,0 +1,2 @@
+Class-Path: mdPhone.jar
+Main-Class: MelissaPhoneObjectWindowsJava
