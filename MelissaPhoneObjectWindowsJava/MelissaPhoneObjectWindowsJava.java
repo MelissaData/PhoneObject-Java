@@ -60,7 +60,7 @@ public class MelissaPhoneObjectWindowsJava {
 
       // Print user input
       System.out.println("\n============================== INPUTS ==============================\n");
-      System.out.println("\t               Phone: " + dataContainer.Phone);
+      System.out.println("\t                Phone: " + dataContainer.Phone);
 
       // Execute Phone Object
       phoneObject.ExecuteObjectAndResultCodes(dataContainer);
@@ -69,19 +69,19 @@ public class MelissaPhoneObjectWindowsJava {
       System.out.println("\n============================== OUTPUT ==============================\n");
       System.out.println("\n\tPhone Object Information:");
 
-      System.out.println("\t     Area Code: " + phoneObject.mdPhoneObj.GetAreaCode());
-      System.out.println("\t        Prefix: " + phoneObject.mdPhoneObj.GetPrefix());
-      System.out.println("\t        Suffix: " + phoneObject.mdPhoneObj.GetSuffix());
-      System.out.println("\t          City: " + phoneObject.mdPhoneObj.GetCity());
-      System.out.println("\t         State: " + phoneObject.mdPhoneObj.GetState());
-      System.out.println("\t      Latitude: " + phoneObject.mdPhoneObj.GetLatitude());
-      System.out.println("\t     Longitude: " + phoneObject.mdPhoneObj.GetLongitude());
-      System.out.println("\t     Time Zone: " + phoneObject.mdPhoneObj.GetTimeZone());
-      System.out.println("\t  Result Codes: " + dataContainer.ResultCodes);
+      System.out.println("\t        Area Code: " + phoneObject.mdPhoneObj.GetAreaCode());
+      System.out.println("\t           Prefix: " + phoneObject.mdPhoneObj.GetPrefix());
+      System.out.println("\t           Suffix: " + phoneObject.mdPhoneObj.GetSuffix());
+      System.out.println("\t             City: " + phoneObject.mdPhoneObj.GetCity());
+      System.out.println("\t            State: " + phoneObject.mdPhoneObj.GetState());
+      System.out.println("\t         Latitude: " + phoneObject.mdPhoneObj.GetLatitude());
+      System.out.println("\t        Longitude: " + phoneObject.mdPhoneObj.GetLongitude());
+      System.out.println("\t        Time Zone: " + phoneObject.mdPhoneObj.GetTimeZone());
+      System.out.println("\t     Result Codes: " + dataContainer.ResultCodes);
 
       String[] rs = dataContainer.ResultCodes.split(",");
       for (String r : rs) {
-        System.out.println("        " + r + ":"
+        System.out.println("           " + r + ":"
             + phoneObject.mdPhoneObj.GetResultCodeDescription(r, mdPhone.ResultCdDescOpt.ResultCodeDescriptionLong));
       }
 
