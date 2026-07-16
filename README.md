@@ -76,8 +76,8 @@ The console will then prompt you with the following warning shown in the image b
 
 #### Download this project
 ```
-git clone https://git.melissadata.com/dtgroup/melissadataobjectexamples/java/melissadataphoneobjectwindowsjavasample.git
-cd melissaphoneobjectwindowsjava
+git clone https://github.com/MelissaData/PhoneObject-Java
+cd PhoneObject-Java
 ```
 
 #### Set up Melissa Updater 
